@@ -10,13 +10,13 @@ import baby5  from '../assets/img/baby5.jpg';
 
 const Hero = () => {
   return (
-    <div className="h-[600px] mt-[60px]">
+    <div className="w-full h-[600px] mt-[100px]">
       <Swiper navigation={true} modules={[Navigation]} className="w-full h-full">
-        <SwiperSlide className="flex items-center justify-center"><img src={baby1} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
-        <SwiperSlide className="flex items-center justify-center"><img src={baby2} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
-        <SwiperSlide className="flex items-center justify-center"><img src={baby3} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
-        <SwiperSlide className="flex items-center justify-center"><img src={baby4} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
-        <SwiperSlide className="flex items-center justify-center"><img src={baby5} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
+        <SwiperSlide className="w-full flex items-center justify-center"><img src={baby1} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
+        <SwiperSlide className="w-full flex items-center justify-center"><img src={baby2} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
+        <SwiperSlide className="w-full flex items-center justify-center"><img src={baby3} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
+        <SwiperSlide className="w-full flex items-center justify-center"><img src={baby4} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
+        <SwiperSlide className="w-full flex items-center justify-center"><img src={baby5} alt="baby" className="w-full h-full object-cover"/></SwiperSlide>
       </Swiper>
     </div>
   )

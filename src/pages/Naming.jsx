@@ -8,16 +8,16 @@ import Navbar from '../components/Navbar'
 
 const Naming = () => {
   return (
-    <div className="flex flex-col items-center">
-      <Navbar />
-      <div className="w-[1140px] mt-[60px]">
-        <About />
+    <div className="w-full flex flex-col items-center justify-center">
+        <Navbar />
+        <div className='mt-[100px]'>
+          <About />
+        </div>
         <Name />
         <Body />
         <Contact />
+        <Footer />
       </div>
-      <Footer />
-    </div>
   )
 }
 

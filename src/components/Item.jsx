@@ -2,7 +2,7 @@ import React from 'react'
 
 const Item = () => {
   return (
-    <div className='w-[260px] shadow-[0_2px_4px_0px_rgba(0,0,0,0.3)] my-[32px] rounded-md cursor-pointer hover:opacity-70'>
+    <div className='w-[260px] shadow-[0_2px_4px_0px_rgba(0,0,0,0.3)] my-[32px] mx-2 rounded-md cursor-pointer hover:opacity-70'>
         <img src="https://images.ctfassets.net/9wtva4vhlgxb/7ftRv7BloaHJHXVleyXUyI/1a29050893aea6965edbd6683f3fbbb1/Swaddlers_280x195.png?fm=webp" alt="" className='w-full object-cover'/>
         <div className='flex flex-col items-center'>
             <h3 className='font-semibold'>How to rise your children?</h3>
